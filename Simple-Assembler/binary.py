@@ -96,7 +96,7 @@ def main():
 		if input_lst[0] == 'var':
 				pass
 
-		if (len(input_lst) < 2 or len(input_lst) > 5) and input_lst[0] != 'var':
+		if (len(input_lst) < 2 or len(input_lst) > 5) and input_lst[0] != 'var' and input_lst[0] != 'hlt':
 			print('ERROR', input_lst)
 		else:
 			if input_lst[0] not in dic:
