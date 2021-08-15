@@ -27,7 +27,7 @@ def type_A(input_lst):
 				res += reg_dict[input_lst[3]]
 				return res
 	else:
-		print('ERROR', input_lst)
+		return('ERROR', input_lst)
 
 def type_B(input_lst):
 	if input_lst[0] == 'mov':
