@@ -82,7 +82,7 @@ def type_F(input_lst):
 	
 
 def main():
-	f = open(r"C:\Users\Debjit\sublime\CO_M21_Assignment-main\automatedTesting\tests\assembly\errorGen\test1", "r")
+	f = open(r"","r")
 	l = []
 	temp = 0
 	l = f.readlines()
